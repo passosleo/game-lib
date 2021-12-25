@@ -13,16 +13,21 @@ input {
   background: none;
   color: #fff;
   letter-spacing: 0.8px;
+  font-size: 0.9em;
 }
 
 .icon {
   color: #fff;
 }
 
+.link {
+  width: 100%;
+}
+
 .containerBody {
   width: 100%;
   height: 100vh;
-  background: url(../../assets/login-background.jpg) no-repeat center center fixed;
+  background: url(../../assets/images/login-background.jpg) no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;

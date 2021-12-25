@@ -1,7 +1,11 @@
 import React from 'react';
+//Style
 import './styles.css';
+//Icons
 import Person from '@material-ui/icons/Person';
 import Lock from '@material-ui/icons/Lock';
+//Navigation
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -21,7 +25,9 @@ const Login = () => {
               <Lock className="icon"/>
               <input type="password" placeholder="Password"/>
             </div>
-            <button>Login</button>
+            <Link className="link" to="/home">
+              <button>Login</button>
+            </Link>
           </div>
         </div>
       </div>

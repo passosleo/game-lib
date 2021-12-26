@@ -1,5 +1,5 @@
 .containerHome {
-  width: 70%;
+  width: 75%;
   background-color: var(--back-color);
   backdrop-filter: var(--back-filter);
   border-radius: var(--back-radius);
@@ -49,16 +49,16 @@
 }
 
 .menuTitle {
-  height: 40px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-color: var(--primary);
-  padding-left: 20px;
+  margin-left: 20px;
+  user-select: none;
 }
 
 .menuTitle h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: normal;
   margin-left: 10px;
 }
@@ -83,8 +83,8 @@
 }
 
 .divisor {
-  border-bottom: 1px solid var(--primary);
-  margin: 20px 15px;
+  border-bottom: 1px solid #515A5A ;
+  margin: 5px 13px;
 }
 
 .menuFooter {
@@ -110,8 +110,64 @@
 }
 
 .containerPrincipal {
-  width: 70%;
-  margin-left: 20px;
+  width: 100%;
+  border-radius: 0 var(--back-radius) var(--back-radius) 0;
+}
+
+.topMenu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #17202A;
+  padding: 10px;
+  border-radius: 0 var(--back-radius) 0 0 ;
+}
+
+.topMenu li:nth-child(1), .topMenu li:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.topMenu li:nth-child(1):hover, .topMenu li:nth-child(2):hover {
+  transition: 350ms;
+  color: var(--primary);
+}
+
+.topMenu li:nth-child(1) span, .topMenu li:nth-child(2) span {
+  font-size: 0.8em;
+}
+
+.divisorVertical {
+  border-left: 1px solid #515A5A ;
+  margin: 0 20px 0 0;
+  height: 50px;
+}
+
+.wallet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.wallet:hover {
+  transition: 350ms;
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+.wallet span {
+  user-select: none;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
 

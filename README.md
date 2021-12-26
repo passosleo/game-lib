@@ -16,4 +16,4 @@ Projeto pessoal e livre de uma biblioteca de games sendo desenvolvido em ReactJS
 ## Página Home
 
 Em construção...
-![Screenshot da página home](https://res.cloudinary.com/leopassos/image/upload/v1640494642/leopassos/home.png)
+![Screenshot da página home](https://res.cloudinary.com/leopassos/image/upload/v1640558481/leopassos/home.png)

@@ -10,6 +10,10 @@ import Trophy from '@material-ui/icons/EmojiEvents'
 import Exit from '@material-ui/icons/ExitToApp'
 import Settings from '@material-ui/icons/Settings'
 import Help from '@material-ui/icons/Help'
+import HomeIcon from '@material-ui/icons/Home'
+import Wallet from '@material-ui/icons/AccountBalanceWallet'
+import Inbox from '@material-ui/icons/Inbox'
+import Notifications from '@material-ui/icons/Notifications'
 //Images
 import Avatar from '../../assets/images/avatar.jpg'
 //Navigation
@@ -31,14 +35,24 @@ const Home = () => {
                 <div className="status"/>
               </div>
             </div>
+
+            <div className="divisor" />
             
             <div className="menuTitle">
               <Menu />
               <h2>Menu</h2>
             </div>
+
+            <div className="divisor" />
             
             <nav>
               <ul>
+                <li>
+                  <button className="btnMenu">
+                    <HomeIcon />
+                    <span>Home</span>
+                  </button>
+                </li>
                 <li>
                   <button className="btnMenu">
                     <Store />
@@ -87,6 +101,25 @@ const Home = () => {
           </div>
 
           <div className="containerPrincipal">
+            <nav>
+              <ul className="topMenu">
+                <li>
+                  <Notifications />
+                  <span>Notificacoes</span>
+                </li>
+                <li>
+                  <Inbox />
+                  <span>Inventário</span>
+                </li>
+
+                <div className="divisorVertical"/>
+
+                <li className="wallet">
+                  <span>R$90,00</span>
+                  <Wallet />
+                </li>
+              </ul>
+            </nav>
             <h1>Home</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
           </div>

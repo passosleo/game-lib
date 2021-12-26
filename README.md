@@ -16,3 +16,4 @@ Projeto pessoal e livre de uma biblioteca de games sendo desenvolvido para fins 
 ## Página Home
 
 Em construção...
+![Screenshot da página home](https://res.cloudinary.com/leopassos/image/upload/v1640494642/leopassos/home.png)

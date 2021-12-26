@@ -2,7 +2,7 @@
 
 Projeto pessoal e livre de uma biblioteca de games sendo desenvolvido para fins de estudo e aperfeiçoamento.
 
-**Host Firebase: [https://game-lib-react.web.app/](https://game-lib-react.web.app/)**
+**Hosting on Firebase: [https://game-lib-react.web.app/](https://game-lib-react.web.app/)**
 
 ## Bibliotecas
 

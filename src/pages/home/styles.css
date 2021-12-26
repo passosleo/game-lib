@@ -1,5 +1,5 @@
 .containerHome {
-  width: 65%;
+  width: 70%;
   background-color: var(--back-color);
   backdrop-filter: var(--back-filter);
   border-radius: var(--back-radius);
@@ -31,6 +31,7 @@
 
 .profile span {
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .profile span:hover {
@@ -62,7 +63,55 @@
   margin-left: 10px;
 }
 
-.containerPrincipal {
-  width: 80%;
+.btnMenu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 12px 12px 20px;
 }
+
+.btnMenu:hover {
+  transition: 250ms;
+  border-right: 4px solid var(--primary);
+  /* color: var(--primary); */
+}
+
+.btnMenu span {
+  text-align: left;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.divisor {
+  border-bottom: 1px solid var(--primary);
+  margin: 20px 15px;
+}
+
+.menuFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 20px; 
+}
+
+.icon {
+  font-size: 30px;
+  padding: 3px;
+  cursor: pointer
+}
+
+.icon:hover {
+  transition: 250ms;
+  color: var(--primary);
+}
+
+.temp2 {
+  border-right: 4px solid var(--primary);
+}
+
+.containerPrincipal {
+  width: 70%;
+  margin-left: 20px;
+}
+
 

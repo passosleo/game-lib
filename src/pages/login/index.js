@@ -18,11 +18,11 @@ const Login = () => {
           </div>
           <div className="login">
             <div className="input">
-              <Person className="icon"/>
+              <Person />
               <input type="text" placeholder="Username"/>
             </div>
             <div className="input">
-              <Lock className="icon"/>
+              <Lock />
               <input type="password" placeholder="Password"/>
             </div>
             <Link className="link" to="/home">

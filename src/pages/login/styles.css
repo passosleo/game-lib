@@ -1,64 +1,15 @@
-button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: none;
-  color: #fff;
-  letter-spacing: 0.8px;
-}
-
-input {
-  border: none;
-  outline: none;
-  background: none;
-  color: #fff;
-  letter-spacing: 0.8px;
-  font-size: 0.9em;
-}
-
-.icon {
-  color: #fff;
-}
-
-.link {
-  width: 100%;
-}
-
-.containerBody {
-  width: 100%;
-  height: 100vh;
-  background: url(../../assets/images/login-background.jpg) no-repeat center center fixed;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .containerLogin {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 400px;
   height: 450px;
-  background-color: #f5f5f5;
-  border-radius: 12px;
+  border-radius: var(--back-radius);
   margin: 30px;
   padding: 50px;
-  background-color: rgba(255, 255, 255, .20);  
-  backdrop-filter: blur(30px);
+  background-color: var(--back-color);  
+  backdrop-filter: var(--back-filter);
 }
-
-/* @media (max-width: 510px) {
-  .login {
-    width: 100%;
-  }
-}
-
-@media(max-height: 570px) {
-  .login {
-    height: 100%;
-  }
-} */
 
 .nav {
   width: 100%;
@@ -67,14 +18,14 @@ input {
 
 .nav button {
   width: 30%;
-  /* border-bottom: 3px solid #ff009d; */
+  /* border-bottom: 3px solid var(--primary); */
   margin-right: 30px;
   font-size: 1em;
   line-height: 30px;
 }
 
 .nav button:hover {
-  border-bottom: 3px solid #ff009d;
+  border-bottom: 3px solid var(--primary);
 }
 
 .login {
@@ -91,7 +42,7 @@ input {
   width: 100%;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #ff009d;
+  border-bottom: 2px solid var(--primary);
 }
 
 .input input {
@@ -100,16 +51,11 @@ input {
   height: 38px;
 }
 
-.input input::placeholder {
-  color: #f5f5f5;
-}
-
 .login button {
   width: 100%;
-  background: #ff009d;
+  background: var(--primary);
   padding: 15px;
   border-radius: 12px;
-  color: #f5f5f5;
   font-size: 1em;
   font-weight: bold;
 }
@@ -120,5 +66,5 @@ input {
 }
 
 .temp {
-  border-bottom: 3px solid #ff009d;
+  border-bottom: 3px solid var(--primary);
 }

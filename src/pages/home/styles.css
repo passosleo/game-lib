@@ -1,0 +1,68 @@
+.containerHome {
+  width: 65%;
+  background-color: var(--back-color);
+  backdrop-filter: var(--back-filter);
+  border-radius: var(--back-radius);
+  display: flex;
+}
+
+.containerMenu {
+  width: 20%;
+  background-color: #17202A  ;
+  border-radius: var(--back-radius) 0 0 var(--back-radius);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.profile img {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 5px solid #17202A;
+  outline: 2px solid var(--primary);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.profile span {
+  font-weight: bold;
+}
+
+.profile span:hover {
+  transition: 350ms;
+  color: var(--primary);
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.menuTitle {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--primary);
+  padding-left: 20px;
+}
+
+.menuTitle h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.containerPrincipal {
+  width: 80%;
+}
+
